@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+
+:root {
+  --bg-color: #0d0d20;
+  --color-main: #fff;
+  --bg-card-default: #171727;
+  --bg-card-active: #6161a7;
+  --bg-best-price: #a0e0b2;
+  --color-best-price: #405050;
+  --color-link: #bdd3c8;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  color: var(--color-main);
+  background-color: var(--bg-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title,
+.subtitle {
+  display: block;
+  text-align: center;
+}
+
+.title {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  width: 450px;
+  margin-bottom: 3rem;
+}
+
+.cards {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  position: relative;
+  background-color: var(--bg-card-default);
+  filter: drop-shadow(0px 2px 2px rgba(0, 0, 0, 0.25));
+  width: 265px;
+  height: 265px;
+  border-radius: 15px;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card.active {
+  background-color: var(--bg-card-active);
+}
+
+.card:nth-child(2)::before {
+  content: "Best Price";
+  position: fixed;
+  width: 120px;
+  height: 30px;
+  background-color: var(--bg-best-price);
+  color: var(--bg-card-default);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-150%);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.card-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.card-price {
+  margin: 0;
+  font-size: 26px;
+  font-weight: 700;
+}
+.card-instead {
+  margin: 0;
+  margin-top: -2.5rem;
+}
+.card-get {
+  position: relative;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.arrow {
+ margin-left: .5rem;
+  width: 40px;
+  height: 10px;
+  background-image: url("../images/arrow.png");
+  background-size: 40%;
+  background-repeat: no-repeat;
+  background-position: left center;
+ 
+}
+
+.link-view-more {
+  display: block;
+  text-decoration: none;
+  color: #666;
+  padding: 1rem 3rem;
+  border: 2px solid var(--bg-card-default);
+  border-radius: 10px;
+  margin-top: 2.5rem;
+}
