@@ -1,4 +1,4 @@
-# Proyect of UI Design Daily
+# Proyect of UI Design Daily: "Price Cards"
     
 <p align="center">
   <img src="myscreenshot.png">
