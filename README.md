@@ -10,8 +10,8 @@
 
 ## Build with 🛠️
 
-* [Html5](https://html.spec.whatwg.org/multipage/)
-* [CSS](https://www.w3.org/Style/CSS/)
+* [html](https://html.spec.whatwg.org/multipage/)
+* [css](https://www.w3.org/Style/CSS/)
 
 
 ### License 📄
