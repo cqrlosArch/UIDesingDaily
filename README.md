@@ -1,7 +1,7 @@
 # Proyect of UI Design Daily
     
 <p align="center">
-  <img width="460" height="300" src="myscreenshot.png">
+  <img src="myscreenshot.png">
 </p>
 
 ## Project Created:
