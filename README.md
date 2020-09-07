@@ -1,7 +1,8 @@
 # Proyect of UI Design Daily
-
-![Screenshot](myscreenshot.png)
-
+    
+<p align="center">
+  <img width="460" height="300" src="myscreenshot.png">
+</p>
 
 ## Project Created:
 
@@ -17,4 +18,4 @@
 [Creative Commons license](https://creativecommons.org/licenses/)
 
 All the free items on this website are under Creative Commons license.
-[UI Desing Daily] (https://uidesigndaily.com/license)
+[UI Desing Daily](https://uidesigndaily.com/license)
